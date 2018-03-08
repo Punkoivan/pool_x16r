@@ -1,0 +1,86 @@
+{
+    "enabled": true,
+    "coin": "raven.json",
+    "address": "RDPrqc5sWpdGqxiCGwD8UXhXT6f7ifaMr9",
+    "rewardRecipients": {
+        "RQTE2qcKPCf1pVvBVcx9VLxSzx6ACyBoiB": 1
+    },
+    "paymentProcessing": {
+        "enabled": true,
+        "paymentInterval": 20,
+        "minimumPayment": 0.01,
+        "daemon": {
+            "host": "127.0.0.1",
+            "port": 8766,
+            "user": "ravend",
+            "password": "Ao3iceIpAo3icjsn392H3iceIp"
+        }
+    },
+    "ports": {
+        "8888": {
+            "tls":false,
+            "diff": 0.5,
+            "varDiff": {
+                "minDiff": 0.04,
+                "maxDiff": 16,
+                "targetTime": 15,
+                "retargetTime": 60,
+                "variancePercent": 30
+            }
+        },
+		"7777": {
+            "tls":false,
+            "diff": 0.5,
+            "varDiff": {
+                "minDiff": 0.04,
+                "maxDiff": 16,
+                "targetTime": 15,
+                "retargetTime": 60,
+                "variancePercent": 30
+            }
+        },
+        "9999": {
+            "tls":false,
+            "diff": 2.5,
+            "varDiff": {
+                "minDiff": 1.5,
+                "maxDiff": 16,
+                "targetTime": 15,
+                "retargetTime": 60,
+                "variancePercent": 30
+            }
+        }
+    },
+    "daemons": [
+        {
+            "host": "127.0.0.1",
+            "port": 8766,
+            "user": "ravend",
+            "password": "Ao3iceIpAo3icjsn392H3iceIp"
+        }
+    ],
+    "p2p": {
+        "enabled": false,
+        "host": "127.0.0.1",
+        "port": 5889,
+        "disableTransactions": true
+    },
+    "mposMode": {
+        "enabled": false,
+        "host": "127.0.0.1",
+        "port": 3306,
+        "user": "me",
+        "password": "mypass",
+        "database": "vtc",
+        "checkPassword": true,
+        "autoCreateWorker": false
+    },
+    "mongoMode": {
+        "enabled": false,
+        "host": "127.0.0.1",
+        "user": "",
+        "pass": "",
+        "database": "vtc",
+        "authMechanism": "DEFAULT"
+    }
+}

@@ -1,0 +1,15 @@
+node_modules/string*
+node_modules/sntp*
+node_modules/signal*
+node_modules/strip*
+node_modules/sa*
+node_modules/sta*
+node_modules/se*
+node_modules/sc*
+node_modules/ss*
+node_modules/sq*
+node_modules/[a-r]*
+node_modules/[t-z]*
+.idea/
+!node_modules/stratum-pool/lib/transactions.js
+!pool_configs/zclassic_example.json
