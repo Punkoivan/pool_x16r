@@ -1,3 +1,10 @@
+# Guys, this fork is for x16r ONLY! Coin is Raven (RVN).
+You are welcome to use this repo - https://github.com/Punkoivan/node-open-mining-portal
+I merged few pull requests and it supporting new nodejs versions.
+
+Thank you.
+
+
 ### We are trying to reborn NOMP. Need contributors!
 -------
 # Lyra2z (Zcoin) algo fixed, next step is neoscrypt
